@@ -1,0 +1,17 @@
+CREATE DATABASE SUELDO;
+GO
+
+USE SUELDO;
+
+CREATE TABLE HistorialSueldo (
+    Id INT IDENTITY PRIMARY KEY,
+    TipoPago NVARCHAR(20),
+    Modalidad NVARCHAR(20),
+    SalarioBruto DECIMAL(10,2),
+    ISSS DECIMAL(10,2),
+    AFP DECIMAL(10,2),
+    Renta DECIMAL(10,2),
+    TotalDeducciones DECIMAL(10,2),
+    SueldoLiquido DECIMAL(10,2),
+    FechaRegistro DATETIME DEFAULT GETDATE()
+);
