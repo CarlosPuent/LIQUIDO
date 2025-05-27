@@ -1,3 +1,9 @@
-Primer paso: Clonar el repositorio en Visual
-Segundo Paso: Ejecutar el script : "DB SCRIPT"
-Tercer Paso: Verificar en las cadenas conexión, que las credenciales sean las mismas de su instancia local, es decir "HOST,USERNAME,PASSWORD".
+## 🛠️ Pasos para ejecutar el sistema
+
+1. **Clonar el repositorio en Visual Studio**
+
+2. **Ejecutar el script**: `DB SCRIPT` (crear la base de datos `SUELDO` y su tabla)
+
+3. **Verificar las cadenas de conexión**  
+   Asegúrate de que las credenciales coincidan con tu instancia local:  
+   `HOST`, `USERNAME`, `PASSWORD`
